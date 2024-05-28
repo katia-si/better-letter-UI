@@ -1,13 +1,10 @@
 import streamlit as st
 from PIL import Image
 
-# design
-base="dark"
-primaryColor="purple"
 
 # Create titles
-st.markdown("""# Better Letter
-## Summarize and Simplify Official German Letters
+st.markdown("""# 	:office: :incoming_envelope: :rainbow-background[Better Letter] :love_letter: :love_hotel:
+## :violet-background[Summarize Official German Letters]
 """)
 
 # Allow user to select number of lines via slider
