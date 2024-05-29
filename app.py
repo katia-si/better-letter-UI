@@ -11,9 +11,10 @@ st.markdown("""# 	:office: :incoming_envelope: :rainbow-background[Better Letter
 line_count = st.slider('How many lines shall the summary have? ', 1, 10, 3)
 
 # Allow user to upload several images
-uploaded_images = st.file_uploader("Upload photos of the letter", type=["png", "jpg", "jpeg"], accept_multiple_files=True)
+uploaded_images = st.file_uploader("You want to upload your photos of the letter?", type=["png", "jpg", "jpeg"], accept_multiple_files=True)
 
-# st.camera_input
+# enable use of user webcam
+enable_webcam = st.camera_input('You want to use your webcam?', help)
 
 # Display uploaded images and summary
 if uploaded_images:
