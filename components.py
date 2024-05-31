@@ -6,11 +6,10 @@ def display_uploaded_images(uploaded_images):
         image = Image.open(uploaded_image)
         st.image(image, caption='Uploaded Letter', use_column_width=True)
 
-def display_summary():
+def display_summary(response):
     st.markdown("### Summary")
     # Dummy summary
-    dummy_summary = "This is a dummy summary of the letter. It's generated automatically by the model."
-    st.write(dummy_summary)
+    st.write(response)
 
 # optional: allow user to select number of lines via slider
 def allow_slider_line_count():
