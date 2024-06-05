@@ -27,9 +27,6 @@ st.markdown("# :incoming_envelope: BETTER LETTER")
 st.markdown("----------")
 st.markdown("### Got a letter in German language?  Let's figure out what it says!")
 
-# Sidebar
-st.sidebar.image('https://postimg.cc/LJcdQtDk/deab52f9', use_column_width=True)
-
 # Allow user to upload image
 uploaded_image = st.file_uploader("You want to upload your photos of the letter?", type=["png", "jpg", "jpeg"], accept_multiple_files=False)
 
